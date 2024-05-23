@@ -27,7 +27,10 @@ export default {
         peerDepsExternal(),
         resolve(),
         commonjs(),
-        typescript({ tsconfig: "./tsconfig.json" }),
+        typescript({
+            tsconfig: "./tsconfig.json",
+            useTsconfigDeclarationDir: true
+        }),
         terser(),
     ],
     external: ['react', '@emotion/react', '@emotion/styled'],
