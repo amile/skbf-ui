@@ -1,6 +1,6 @@
 {
   "name": "@amile/skbf-ui",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
